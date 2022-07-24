@@ -1,0 +1,18 @@
+.clients__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #afb1b8;
+    transition: background-color 250ms $cubic, fill 250ms $cubic, border-color 250ms $cubic;
+
+    &:hover,
+    &:focus {
+        background-color: $primary-bg-color;
+        border-color: $button-bg-color;
+        fill: $button-bg-color;
+    }
+}
